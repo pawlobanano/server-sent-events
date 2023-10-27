@@ -4,9 +4,10 @@ Proof of concept for Server-Sent Events (SSE) - a server push technology enablin
 ## Example
 
 **Run HTTP server**
-```golang
+```sh
 go run main.go
 ```
+
 **Subscribe**
 ```
 curl -N http://localhost:8080/subscribe?topic=news
